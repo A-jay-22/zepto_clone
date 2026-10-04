@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for carousels / horizontal scrolls */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Product card hover lift */
+.product-card:hover {
+  transform: translateY(-2px);
+}
+
+
+
